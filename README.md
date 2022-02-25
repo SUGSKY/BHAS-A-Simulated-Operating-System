@@ -9,9 +9,14 @@ BHAS is a simulated operating system using C++ and QT to implement the GUI. The 
 ● File manager
 
 ● Calculator (+, -, x, /)
+
 ● Calendar (reminder?)
+
 ● Clock (system)
+
 ● Text editor
+
 ● Task manager.
+
 Which our team implement on our own.
 
