@@ -1,0 +1,37 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>folder-icon.png</file>
+        <file>a.png</file>
+        <file>notepad.png</file>
+        <file>Calc.png</file>
+        <file>TXT.png</file>
+        <file>loginPhoto.png</file>
+        <file>loginBox.png</file>
+        <file>LOGO.jpg</file>
+        <file>Wallpaper.jpg</file>
+        <file>LOGO.ico</file>
+        <file>LOGO.png</file>
+        <file>taskManager.png</file>
+        <file>Calendar.png</file>
+        <file>GPAPlanner.png</file>
+        <file>GPAPlanner.jpg</file>
+        <file>background.jpg</file>
+        <file>kernel.png</file>
+        <file>clock.png</file>
+    </qresource>
+    <qresource prefix="/Notepad">
+        <file>Icons/icons8-add-file-48.png</file>
+        <file>Icons/icons8-cancel-48.png</file>
+        <file>Icons/icons8-copy-48.png</file>
+        <file>Icons/icons8-cut-48.png</file>
+        <file>Icons/icons8-delete-48.png</file>
+        <file>Icons/icons8-edit-48.png</file>
+        <file>Icons/icons8-opened-folder-48.png</file>
+        <file>Icons/icons8-paste-48.png</file>
+        <file>Icons/icons8-print-48.png</file>
+        <file>Icons/icons8-redo-48.png</file>
+        <file>Icons/icons8-save-48.png</file>
+        <file>Icons/icons8-save-as-48.png</file>
+        <file>Icons/icons8-undo-48.png</file>
+    </qresource>
+</RCC>

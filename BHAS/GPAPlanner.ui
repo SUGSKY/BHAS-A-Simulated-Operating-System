@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GPAPlanner</class>
+ <widget class="QMainWindow" name="GPAPlanner">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>984</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>MyApp</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QVBoxLayout" name="main_layout">
+      <item>
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="5" column="1">
+         <widget class="QLineEdit" name="course2"/>
+        </item>
+        <item row="5" column="0">
+         <widget class="QLabel" name="label_2">
+          <property name="text">
+           <string>2)</string>
+          </property>
+         </widget>
+        </item>
+        <item row="15" column="1">
+         <widget class="QLineEdit" name="course7"/>
+        </item>
+        <item row="17" column="0">
+         <widget class="QLabel" name="label_8">
+          <property name="text">
+           <string>8)</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <spacer name="verticalSpacer">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>40</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="11" column="0">
+         <widget class="QLabel" name="label_5">
+          <property name="text">
+           <string>5)</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="3">
+         <widget class="QComboBox" name="gpa2"/>
+        </item>
+        <item row="13" column="0">
+         <widget class="QLabel" name="label_6">
+          <property name="text">
+           <string>6)</string>
+          </property>
+         </widget>
+        </item>
+        <item row="13" column="1">
+         <widget class="QLineEdit" name="course6"/>
+        </item>
+        <item row="19" column="1">
+         <widget class="QPushButton" name="pushButton">
+          <property name="text">
+           <string>Clear</string>
+          </property>
+         </widget>
+        </item>
+        <item row="16" column="1">
+         <spacer name="verticalSpacer_7">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>40</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="11" column="3">
+         <widget class="QComboBox" name="gpa5"/>
+        </item>
+        <item row="3" column="3">
+         <widget class="QComboBox" name="gpa1"/>
+        </item>
+        <item row="17" column="3">
+         <widget class="QComboBox" name="gpa8"/>
+        </item>
+        <item row="15" column="0">
+         <widget class="QLabel" name="label_7">
+          <property name="text">
+           <string>7)</string>
+          </property>
+         </widget>
+        </item>
+        <item row="14" column="1">
+         <spacer name="verticalSpacer_6">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>40</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="5" column="2">
+         <widget class="QLineEdit" name="credit2"/>
+        </item>
+        <item row="3" column="1">
+         <widget class="QLineEdit" name="course1"/>
+        </item>
+        <item row="6" column="1">
+         <spacer name="verticalSpacer_2">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>40</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="7" column="1">
+         <widget class="QLineEdit" name="course3"/>
+        </item>
+        <item row="1" column="2" colspan="2">
+         <widget class="QTextEdit" name="textEdit"/>
+        </item>
+        <item row="17" column="2">
+         <widget class="QLineEdit" name="credit8"/>
+        </item>
+        <item row="8" column="1">
+         <spacer name="verticalSpacer_3">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>40</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="19" column="2">
+         <widget class="QPushButton" name="pushButton_2">
+          <property name="text">
+           <string>Recommend Me</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="label_12">
+          <property name="text">
+           <string>Target GPA:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLineEdit" name="targetgpa"/>
+        </item>
+        <item row="2" column="1">
+         <widget class="QLabel" name="label_9">
+          <property name="text">
+           <string>Course Name</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="2">
+         <widget class="QLineEdit" name="credit1"/>
+        </item>
+        <item row="15" column="3">
+         <widget class="QComboBox" name="gpa7"/>
+        </item>
+        <item row="7" column="3">
+         <widget class="QComboBox" name="gpa3"/>
+        </item>
+        <item row="9" column="0">
+         <widget class="QLabel" name="label_4">
+          <property name="text">
+           <string>4)</string>
+          </property>
+         </widget>
+        </item>
+        <item row="12" column="1">
+         <spacer name="verticalSpacer_5">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>40</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="2" column="2">
+         <widget class="QLabel" name="label_10">
+          <property name="text">
+           <string>Credits</string>
+          </property>
+         </widget>
+        </item>
+        <item row="17" column="1">
+         <widget class="QLineEdit" name="course8"/>
+        </item>
+        <item row="9" column="1">
+         <widget class="QLineEdit" name="course4"/>
+        </item>
+        <item row="3" column="0">
+         <widget class="QLabel" name="label">
+          <property name="text">
+           <string>1)</string>
+          </property>
+         </widget>
+        </item>
+        <item row="11" column="1">
+         <widget class="QLineEdit" name="course5"/>
+        </item>
+        <item row="11" column="2">
+         <widget class="QLineEdit" name="credit5"/>
+        </item>
+        <item row="9" column="3">
+         <widget class="QComboBox" name="gpa4"/>
+        </item>
+        <item row="15" column="2">
+         <widget class="QLineEdit" name="credit7"/>
+        </item>
+        <item row="0" column="2">
+         <widget class="QLabel" name="label_13">
+          <property name="text">
+           <string>The recommendation will be displayed here:</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="3">
+         <widget class="QLabel" name="label_11">
+          <property name="text">
+           <string>Letter Grade</string>
+          </property>
+         </widget>
+        </item>
+        <item row="13" column="3">
+         <widget class="QComboBox" name="gpa6"/>
+        </item>
+        <item row="7" column="0">
+         <widget class="QLabel" name="label_3">
+          <property name="text">
+           <string>3)</string>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="2">
+         <widget class="QLineEdit" name="credit3"/>
+        </item>
+        <item row="10" column="1">
+         <spacer name="verticalSpacer_4">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>40</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item row="13" column="2">
+         <widget class="QLineEdit" name="credit6"/>
+        </item>
+        <item row="9" column="2">
+         <widget class="QLineEdit" name="credit4"/>
+        </item>
+        <item row="18" column="1">
+         <spacer name="verticalSpacer_8">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>40</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <action name="action_Back">
+   <property name="text">
+    <string>&lt; Back</string>
+   </property>
+  </action>
+  <action name="actionCopy">
+   <property name="text">
+    <string>Copy</string>
+   </property>
+  </action>
+  <action name="actionMove">
+   <property name="text">
+    <string>Move</string>
+   </property>
+  </action>
+  <action name="actionPaste">
+   <property name="text">
+    <string>Paste</string>
+   </property>
+  </action>
+  <action name="actionDelete">
+   <property name="text">
+    <string>Delete</string>
+   </property>
+  </action>
+  <action name="actionRename">
+   <property name="text">
+    <string>Rename</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
